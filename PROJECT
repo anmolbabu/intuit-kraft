@@ -1,0 +1,16 @@
+domain: flipper.io
+layout:
+- go.kubebuilder.io/v3
+projectName: intuit-kraft
+repo: github.com/anmolbabu/intuit-kraft
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: flipper.io
+  group: flipper.io
+  kind: Flipper
+  path: github.com/anmolbabu/intuit-kraft/api/v1alpha1
+  version: v1alpha1
+version: "3"

@@ -1,0 +1,7 @@
+apiVersion: flipper.io.flipper.io/v1alpha1
+kind: Flipper
+metadata:
+  name: flipper-sample
+spec:
+  # Add fields here
+  foo: bar
